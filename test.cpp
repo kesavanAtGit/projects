@@ -21,6 +21,8 @@ void writeAndRead() {
 }
 
 int main() {
-    writeAndRead();
+    std::string m_username{};
+    std::cin >> m_username;
+    std::cout << m_username + ".txt";
     return 0;
 }
